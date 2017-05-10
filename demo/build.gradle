@@ -48,6 +48,7 @@ android {
     lintOptions {
         abortOnError false
     }
+    buildToolsVersion '25.0.0'
 }
 
 tasks.withType(JavaCompile) {

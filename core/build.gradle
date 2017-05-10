@@ -23,6 +23,7 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
+    buildToolsVersion '25.0.0'
 }
 
 tasks.withType(JavaCompile) {
